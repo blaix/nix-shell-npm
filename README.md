@@ -9,11 +9,11 @@ with npm available.
 * [nix](https://nix.dev/install-nix.html)
 * [direnv](https://direnv.net/)
 * Optional but highly recommended: [nix-direnv](https://github.com/nix-community/nix-direnv)
+* Optional: [degit](https://github.com/Rich-Harris/degit) (otherwise just copy this repo however you want)
 
 ## Usage
 
-1. Copy this repo. E.g. with [degit](https://github.com/Rich-Harris/degit):
-  `degit blaix/nix-shell-npm my-npm-project`
+1. `degit blaix/nix-shell-npm my-npm-project`
 2. `cd my-npm-project`
 3. `direnv allow`
-4. `npx whatever` 🎉
+4. `npm init` 🎉
